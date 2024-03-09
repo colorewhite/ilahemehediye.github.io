@@ -1,0 +1,49 @@
+body {
+    background-image: url("https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExYXM2dnN5N3Z2OG4wN2s2cjFicGEwY2pmMXdzZzU3N3Fhdnh2a2huaiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/4b8Oi4TXZDStG/giphy.gif"); /* Arka planda gif */
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    font-size: 6vw; /* Yazı boyutunu ekran genişliğine göre ayarla */
+    color: white; /* Beyaz renk */
+    font-weight: bold; /* Kalın yazı */
+    text-shadow: 2px 2px 5px black; /* Kenarları belirginleştir */
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 4vw; /* Yazı boyutunu ekran genişliğine göre ayarla */
+    color: white; /* Beyaz renk */
+    font-weight: bold; /* Kalın yazı */
+    text-shadow: 2px 2px 5px black; /* Kenarları belirginleştir */
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+button {
+    background-color: #4CAF50; /* Yeşil */
+    border: none;
+    color: white;
+    padding: 4vw 8vw; /* Buton boyutu ekran genişliğine göre ayarla */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 4vw; /* Yazı boyutunu ekran genişliğine göre ayarla */
+    margin-top: 5%; /* Yukarıdan 5% boşluk */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 12px; /* Kenarları kavisli */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Kenarları parlak yap */
+}
+
+button:hover {
+    background-color: #45a049; /* Koyu yeşil hover etkisi */
+}

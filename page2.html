@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 2</title>
+    <style>
+        body {
+            background-image: url("https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExeTJxOGJqc2s2cmh3ZmJzMG1yNTFqaTlwcXNreWpxdnFvdzFlOXg2diZlcD12MV9naWZzX3NlYXJjaCZjdD1n/U3qYN8S0j3bpK/giphy.gif"); /* Arka planda gif */
+            background-size: cover;
+            background-repeat: no-repeat;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            flex-direction: column;
+            color: white;
+            font-family: Arial, sans-serif;
+        }
+        
+        h1, p {
+            color: white; /* Metin rengi siyah */
+        }
+        
+        h1 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+        
+        p {
+            font-size: 33px;
+            text-align: center;
+            margin-bottom: 19px;
+        }
+        
+        button {
+            background-color: #4CAF50; /* Yeşil */
+            border: none;
+            color: white;
+            padding: 15px 32px; /* Buton boyutu */
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin-top: 20px; /* Yazı ile buton arasına boşluk bırak */
+            transition-duration: 0.4s;
+            cursor: pointer;
+            border-radius: 12px; /* Kenarları kavisli */
+        }
+        
+        button:hover {
+            background-color: #45a049; /* Koyu yeşil hover etkisi */
+        }
+    </style>
+</head>
+<body>
+    <h1>Yaxşıki Varsan Yaxşıki Seni Tanımışam İLahe</h1>
+    <p>Bu münasibetimizin daim hemişe bele semimi olmağını arzu edirem</p>
+    <button onclick="anaSayfayaGit()">Ana Sayfa</button>
+
+    <script>
+        function anaSayfayaGit() {
+            window.location.href = "index.html";
+        }
+    </script>
+</body>
+</html>

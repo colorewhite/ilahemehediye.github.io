@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Benim Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="ana-sayfa">
+        <h1 class="baslik" id="baslik">27.02.24</h1>
+        <button onclick="page2()">....</button>
+        <button class="page3" onclick="page3()">....</button> <!-- Eklenen onclick event -->
+    </div>
+    <script src="script.js"></script>
+    <script>
+        function page2() {
+            window.location.href = "page2.html";
+        }
+
+        function page3() {
+            window.location.href = "page3.html";
+        }
+    </script>
+</body>
+</html>
+<style>
+    body {
+        background-image: url("https://media.giphy.com/media/l3E6IlIx5f9nVjd84/giphy.gif?cid=790b7611y2q8bjsk6rhwfbs0mr51ji9pqskyjqvqow1e9x6v&ep=v1_gifs_search&rid=giphy.gif&ct=g"); /* Arka planda gif */
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        flex-direction: column;
+        color: white;
+        font-family: Arial, sans-serif;
+    }
+    
